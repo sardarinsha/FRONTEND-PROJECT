@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sardar Retail Shop | Product Details</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-inner">
+            <div class="logo"><a href="index.html">Sardar Retail Shop</a></div>
+
+            <form class="search-bar" action="#" method="get">
+                <input type="search" name="q" placeholder="Search for products..." aria-label="Search products" autocomplete="off" />
+                <button type="submit">Search</button>
+            </form>
+
+            <nav class="main-nav" aria-label="Primary">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link">Products</a>
+                <a href="#" class="nav-link">Deals</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" aria-labelledby="product-title">
+            <div class="container product-detail-grid">
+                <div>
+                    <img class="product-detail-image" src="assets/images/wireless-headphones.jpg" width="800" height="600" alt="Wireless Noise Cancelling Headphones" />
+                </div>
+
+                <div>
+                    <h1 class="product-detail-title" id="product-title">Wireless Noise Cancelling Headphones</h1>
+                    <p class="product-detail-desc">Experience immersive sound and all-day comfort with our premium wireless headphones, designed for work, travel, and everyday listening.</p>
+
+                    <p class="product-detail-price">$59.99</p>
+
+                    <label class="size-label" for="size">Choose size</label>
+                    <select id="size" class="size-select" name="size" aria-label="Product size">
+                        <option value="">Select size</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+
+                    <div class="product-detail-actions">
+                        <button type="button" class="btn btn-primary" id="add-to-cart-btn">Add to Cart</button>
+                        <button type="button" class="btn btn-outline">Add to Wishlist</button>
+                    </div>
+
+                    <ul class="product-features">
+                        <li>Up to 30 hours of battery life</li>
+                        <li>Active noise cancellation with transparency mode</li>
+                        <li>Bluetooth 5.3 with multi-device pairing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-tight-top" aria-labelledby="reviews-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="reviews-heading">Customer Reviews</h2>
+                    <p>What people are saying about this product.</p>
+                </div>
+
+                <div class="reviews-grid">
+                    <article class="product-card">
+                        <h3>&ldquo;Great sound quality&rdquo;</h3>
+                        <p class="review-text">The noise cancellation is excellent and the battery easily lasts a full day of work.</p>
+                        <p class="review-author">&mdash; Alex</p>
+                    </article>
+
+                    <article class="product-card">
+                        <h3>&ldquo;Very comfortable&rdquo;</h3>
+                        <p class="review-text">Lightweight and comfortable even during long meetings and flights.</p>
+                        <p class="review-author">&mdash; Priya</p>
+                    </article>
+
+                    <article class="product-card">
+                        <h3>&ldquo;Worth the price&rdquo;</h3>
+                        <p class="review-text">Solid build, premium feel, and pairs instantly with my devices.</p>
+                        <p class="review-author">&mdash; Daniel</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-tight-top" aria-labelledby="related-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="related-heading">Related Products</h2>
+                    <p>You may also like these items.</p>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card">
+                        <img src="assets/images/smartwatch.jpg" width="800" height="600" alt="Smartwatch Pro" loading="lazy" />
+                        <h3>Smartwatch Pro</h3>
+                        <p class="product-price">$129.99</p>
+                        <a href="product.html" class="btn btn-secondary">View Details</a>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="assets/images/travel-duffel.jpg" width="800" height="600" alt="Travel Duffel Bag" loading="lazy" />
+                        <h3>Travel Duffel Bag</h3>
+                        <p class="product-price">$74.99</p>
+                        <a href="product.html" class="btn btn-secondary">View Details</a>
+                    </article>
+
+                    <article class="product-card">
+                        <img src="assets/images/bluetooth-speaker.jpg" width="800" height="600" alt="Bluetooth Speaker" loading="lazy" />
+                        <h3>Bluetooth Speaker</h3>
+                        <p class="product-price">$39.99</p>
+                        <a href="product.html" class="btn btn-secondary">View Details</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-inner">
+            <div class="footer-column">
+                <h4>ShopEase</h4>
+                <p>Your trusted online store for quality products and fast delivery.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Shipping &amp; Returns</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="mailto:support@shopease.com">support@shopease.com</a></li>
+                    <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ShopEase. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
